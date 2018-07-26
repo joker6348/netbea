@@ -26,4 +26,14 @@ public class strclass {
     public boolean equ(String s, String z) {
        return  s.equals(z);
     }
+    
+    public String conc(String s, String y){
+        return s.concat(y);
+    }
+      
+    public int index(String s,char c){
+        return s.indexOf(c);
+    }
+    
+    public 
 }
