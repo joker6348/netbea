@@ -35,5 +35,21 @@ public class strclass {
         return s.indexOf(c);
     }
     
-    public 
+    public int lastIndex(String s,char c){
+        return s.lastIndexOf(c);
+    }
+    
+    public String subst(String s,int i){
+        return s.substring(i);
+    }
+    
+    public String subst(String s,int i,int j){
+        return s.substring(i,j);
+    }
+    
+    public String repl(String s,char z,char i){
+       return s.replace(z, i);
+    } 
+    
+            
 }
